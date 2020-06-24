@@ -1,22 +1,21 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Pomodoro Timer!"/> -->
-    <timer />
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Pomodoro Timer!"/>
+    <Timer />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Timer from './components/timer/Timer.vue'
-import Picture from './components/picture/Picture.vue'
+// import Picture from './components/picture/Picture.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Timer,
-    Picture
+    Timer
   }
 }
 </script>

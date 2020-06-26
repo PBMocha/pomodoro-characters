@@ -93,3 +93,5 @@ if (isDevelopment) {
     })
   }
 }
+
+// Handle Timer events
